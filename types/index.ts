@@ -34,12 +34,20 @@ export interface Decision {
   updatedAt: string;
 }
 
+export interface ReportData {
+  [key: string]: unknown;
+}
+
 export interface Report {
   id: string;
   title: string;
   type: string;
   generatedAt: string;
-  data: any;
+  data: ReportData;
+}
+
+export interface WorkflowConfig {
+  [key: string]: unknown;
 }
 
 export interface Workflow {
@@ -47,7 +55,7 @@ export interface Workflow {
   name: string;
   status: "active" | "paused" | "completed" | "failed";
   createdAt: string;
-  config: any;
+  config: WorkflowConfig;
 }
 
 export interface ApiResponse<T> {
