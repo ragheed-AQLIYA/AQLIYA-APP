@@ -1,0 +1,30 @@
+{
+  "name": "aqliya-app",
+  "version": "1.0.0",
+  "description": "AQLIYA-APP هو الواجهة الأمامية لمنصة عقلية، ويشمل الموقع الرسمي، لوحة التحكم، طبقة REST API، التكامل مع AQLIYA-ENGINE و AQLIYA-ORCHESTRATION، مع دعم صفحات React/Next.js، أدوات القرار، التقارير التفاعلية، وهو نقطة دخول المستخدمين للنظام.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^25.0.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.22",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.8",
+    "next": "^16.0.8",
+    "postcss": "^8.5.6",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
+  }
+}
