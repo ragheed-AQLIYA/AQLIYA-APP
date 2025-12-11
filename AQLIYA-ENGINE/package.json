@@ -1,0 +1,22 @@
+{
+  "name": "aqliya-engine",
+  "version": "1.0.0",
+  "description": "AQLIYA-ENGINE v1.0 — Core API for health, orchestration, insights, benchmarks and agents.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "fastify": "^5.0.0",
+    "@fastify/cors": "^10.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/node-fetch": "^2.6.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.0"
+  }
+}
