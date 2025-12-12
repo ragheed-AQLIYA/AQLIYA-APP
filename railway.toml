@@ -1,7 +1,0 @@
-[build]
-builder = "NIXPACKS"
-
-buildCommand = "cd AQLIYA-ENGINE && npm install"
-
-[deploy]
-startCommand = "cd AQLIYA-ENGINE && npm run start"
