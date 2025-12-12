@@ -1,0 +1,6 @@
+{
+  "name": "aqliya-agent-router",
+  "version": "1.0",
+  "description": "Routes incoming tasks to agents - placeholder",
+  "routes": []
+}

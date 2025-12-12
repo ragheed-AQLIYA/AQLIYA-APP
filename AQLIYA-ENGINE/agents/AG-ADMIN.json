@@ -1,0 +1,6 @@
+{
+  "id": "AG-ADMIN",
+  "role": "admin",
+  "status": "ready",
+  "description": "Administrative agent for orchestration and governance"
+}

@@ -1,3 +1,14 @@
+# AQLIYA-ENGINE Tools
+
+This folder contains workflows, agent configs, scripts and docs for the Notion validator
+and agent router. Files are placeholders/stubs to be expanded.
+
+Structure:
+
+- `workflows/` — workflow definitions (JSON)
+- `agents/` — agent manifest files
+- `scripts/` — validator/router/autocorrector scripts
+- `docs/` — documentation and specs
 # 🚀 AQLIYA-ENGINE v1.0
 
 Core API for AQLIYA Decision Intelligence Platform

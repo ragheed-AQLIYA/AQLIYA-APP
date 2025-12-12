@@ -1,0 +1,6 @@
+{
+  "id": "AG-OPS",
+  "role": "ops",
+  "status": "ready",
+  "description": "Operations and deployment agent"
+}
